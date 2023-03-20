@@ -37,7 +37,10 @@ function Home() {
         <View className="bg-white mt-20 flex-grow rounded-t-[40px] flex-col justify-between items-center">
           <View className="bg-[#E5E6E9] h-[5px] w-[109px] mt-[15px] mb-[15px] rounded-full"></View>
           {/* item */}
-          <View className="flex flex-row  p-4 border-b-2 border-gray-100 mx-4">
+          <View className="flex flex-row  p-4 border-b-2 border-gray-100 mx-4 justify-center items-center">
+              <View className="absolute top-3 left-3 rounded-full w-6 h-6 bg-black z-50 justify-center items-center">
+              <Text className=" font-extrabold text-[14px]   text-white text-center">3</Text>
+              </View>
             <Image
               source={{
                 uri:
@@ -45,6 +48,7 @@ function Home() {
               }}
               className="h-[59px] w-[59px] rounded-full justify-start items-start mr-6"
             />
+            
             <View className="flex flex-1 flex-col">
               <View className="flex flex-col">
                 <Text className="text-[15px] mt-2 font-bold mb-2">
